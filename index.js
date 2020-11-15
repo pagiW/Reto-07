@@ -13,6 +13,11 @@ const title = document.getElementById('title');
 let state = 'light';
 let circle = 0;
 
+for (let i = 0; i < cards.length; i++) {
+    const element = cards[i];
+    element.tabIndex = i + 1;
+}
+
 darkmode.onclick = () => {
 
     if (circle === 0) {
