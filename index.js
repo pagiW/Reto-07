@@ -15,7 +15,7 @@ let circle = 0;
 
 for (let i = 0; i < cards.length; i++) {
     const element = cards[i];
-    element.tabIndex = i + 1;
+    element.tabIndex = 0;
 }
 
 darkmode.onclick = () => {
